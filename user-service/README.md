@@ -48,6 +48,11 @@ docker ps
 docker ps -a
 ```
 
+Ejecutar comando en el container
+```
+docker exec -it user-service sh
+```
+
 Ver logs
 ```
 docker logs user-service
